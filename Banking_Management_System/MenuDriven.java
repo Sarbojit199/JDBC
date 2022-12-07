@@ -8,7 +8,7 @@ public class MenuDriven {
 	public static void main(String[] args) {
 		BMS_Loader bms=new BMS_Loader();
 		Scanner sc=new Scanner(System.in);
-		System.out.println("******Welcome to Anonymous Bank******");
+		System.out.println("Welcome ");
 		while(true) {
 			System.out.println("[1.Create Account],"
 					+ "[2.Display Details],"
@@ -22,7 +22,7 @@ public class MenuDriven {
 				choice=sc.nextInt();
 			}
 			if(choice==0) {
-				System.out.println("******!!Thank you for choosing our bank!!******");
+				System.out.println("Thank you");
 				break;
 			}else {
 				try {
